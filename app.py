@@ -52,4 +52,4 @@ def exclui_livro(id):
         if livro.get('id') == id:
             del livros[indice]
     return jsonify(livros)
-app.run(port=5000, host='10.223.41.179', debug=True)
+app.run(port=5000, host='localhost', debug=True)
