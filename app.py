@@ -52,6 +52,10 @@ def exclui_livro(id):
         if livro.get('id') == id:
             del livros[indice]
     return jsonify(livros)
+<<<<<<< HEAD
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
+=======
+app.run(host='0.0.0.0', debug=True)
+>>>>>>> 06b8aa9d98979c9dbd7558c3b9ced1d3f8687721
