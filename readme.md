@@ -9,5 +9,13 @@
    - localhost/livros/id [GET]
    - localhost/livro/id [PUT]
    - localhost/livro [DELETE]
+# JSON
+```json
+{
+   'id': 1,
+   'titulo': 'As Crônicas de Nárnia - O Leão, a Feiticeira e o Guarda-Roupa',
+   'autor': 'C.S. Lewis'
+}
+```
 # Recursos
 - Livros
